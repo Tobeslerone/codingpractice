@@ -1,0 +1,51 @@
+h1 {
+    text-align: center;
+}
+
+#one{
+    color: red;
+}
+
+#two{
+    color: blue;
+}
+
+#three{
+    color: green
+}
+
+#four{
+    font-size: 50px;
+}
+
+#five{
+    font-size: 8px;
+}
+
+#six{
+    text-align: center;
+}
+
+#seven{
+    font-weight: bold;
+}
+
+#eight{
+    font-family: "Lucida Console"
+}
+
+#nine{
+    font-size: 35px; 
+    color: orange;
+    font-weight: bold; 
+}
+
+.styledFont{
+    color: green
+}
+
+#styledImage{
+    border: 10px solid;
+    color: orange;
+    
+}

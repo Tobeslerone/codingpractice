@@ -1,0 +1,43 @@
+body {
+    background-color: red;
+}
+h1{
+    color: whitesmoke
+}
+table {
+    width:400px;
+    /*border-spacing: 40px*/
+}
+
+th, caption {
+    text-align: left;
+}
+
+table, th, td {
+    border: 1px solid #000;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+}
+
+     tr:nth-child(even) {
+         background-color: #fff;
+     }
+
+     tr:nth-child(odd) {
+         background-color: #ddd;
+     }
+
+     #two {
+         font-weight: bold;
+         color: white;
+         font-size: 25px;
+         font-family: "Lucida Console";
+     }
+
+     #img1 {
+         border: 10px dotted;
+         color: blue;
+     }
