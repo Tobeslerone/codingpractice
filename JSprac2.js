@@ -15,3 +15,20 @@ document.getElementById("button4").addEventListener("click", function(){
 document.getElementById("button3").addEventListener("click", function(){
     document.getElementById("box").style.opacity = ".2";
 });
+
+var x = document.getElementById("button5");
+x.addEventListener("mouseover", myFunction);
+x.addEventListener("click", mySecondFunction);
+x.addEventListener("mouseout", myThirdFunction);
+
+function myFunction() {
+    document.getElementById("demo").innerHTML += "Mouse Over!<br>";
+}
+
+function mySecondFunction() {
+    document.getElementById("demo").innerHTML += "Clicked!<br>";
+}
+
+function myThirdFunction() {
+    document.getElementById("demo").innerHTML += "Mouse out!<br>";
+}
