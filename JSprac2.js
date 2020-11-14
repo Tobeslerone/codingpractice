@@ -1,9 +1,9 @@
 document.getElementById("button1").addEventListener("click", function(){
-    document.getElementById("box").style.height = "500px";
+    document.getElementById("box").style.height = "600px";
 });
 
 document.getElementById("button2").addEventListener("click", function(){
-    document.getElementById("box").style.backgroundColor = "blue";
+    document.getElementById("box").style.backgroundColor = "yellow";
 });
 
 document.getElementById("button4").addEventListener("click", function(){
